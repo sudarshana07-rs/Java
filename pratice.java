@@ -5,11 +5,17 @@ public class pratice {
         // Taking the input from the user
         System.out.println("Enter a number to check even or odd: ");
         int n=sc.nextInt();
-        if (n%2==0 || n!=0){
+        if (n%2==0){
             System.out.println(n+" is a Even Number");
         }
-        else{
+        else if(n%2!=0){
             System.out.println(n+" is a Odd number");
+        }
+        else if(n==0){
+            System.out.println("The input is zero");
+        }
+        else{
+            System.out.println("Invalid input!!!");
         }
     }
 }
