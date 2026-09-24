@@ -7,12 +7,12 @@ public class practice3 {
         int n= sc.nextInt();
         String[] arr= new String[n];
         // sc.next();
-        for (int i=1; i<=n; i++){
-            System.out.println("Enter the item "+i+" :");
+        for (int i=0; i<n; i++){
+            System.out.println("Enter the item "+(i+1)+" :");
             arr[i]= sc.next();
         }
-        for (int i=1; i<=n; i++){
-            System.out.println("Final Grocery List: \n");
+        System.out.println("Final Grocery List: \n");
+        for (int i=0; i<arr.length; i++){
             System.out.println(arr[i]);
         }
     }
